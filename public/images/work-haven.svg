@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Haven Clean identity and website">
+  <rect width="640" height="480" fill="#f7f6f2"/>
+  <!-- big leaf shape -->
+  <path d="M320 60 c 90 0 150 80 150 180 c 0 100 -60 180 -150 180 c -90 0 -150 -80 -150 -180 c 0 -100 60 -180 150 -180 z" fill="#dcefd7"/>
+  <path d="M320 60 c 90 0 150 80 150 180 c 0 100 -60 180 -150 180 c -34 0 -64 -12 -88 -32 c 48 -56 76 -120 76 -208 c 0 -72 -24 -132 -66 -176 c 10 -3 21 -4 28 -4 z" fill="#b7d9ae"/>
+  <path d="M320 300 c -46 0 -78 -24 -92 -62 c 22 -16 66 -24 92 -24 c 26 0 70 8 92 24 c -14 38 -46 62 -92 62 z" fill="#6f946a" opacity="0.5"/>
+  <!-- small cleaner bottle -->
+  <rect x="470" y="180" width="70" height="140" rx="16" fill="#ffffff" stroke="#e2dfd7" stroke-width="2"/>
+  <rect x="484" y="120" width="42" height="60" rx="8" fill="#1c1916"/>
+  <rect x="484" y="140" width="42" height="10" fill="#ca5e38"/>
+  <rect x="470" y="200" width="70" height="12" fill="#dcefd7"/>
+  <rect x="470" y="220" width="70" height="8" fill="#b7d9ae" opacity="0.8"/>
+  <text x="505" y="268" font-family="Sora, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#1c1916">HAVEN</text>
+  <rect x="446" y="320" width="120" height="8" rx="4" fill="#e2dfd7"/>
+  <!-- small house -->
+  <path d="M150 320 h 90 v -70 h -90 z" fill="#ffffff" stroke="#1c1916" stroke-width="4"/>
+  <path d="M140 252 l 55 -60 l 55 60 z" fill="#1c1916"/>
+  <!-- label -->
+  <text x="150" y="410" font-family="Sora, sans-serif" font-size="20" font-weight="600" fill="#1c1916">Brand &amp; launch site</text>
+  <text x="150" y="434" font-family="Inter, sans-serif" font-size="13" fill="#6c6860">Haven Clean — eco home services</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Relay Finance product dashboard interface">
+  <rect width="640" height="480" fill="#f7f6f2"/>
+  <!-- app window -->
+  <rect x="100" y="70" width="440" height="340" rx="14" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <!-- sidebar -->
+  <rect x="100" y="70" width="110" height="340" rx="14" fill="#1c1916"/>
+  <rect x="100" y="104" width="110" height="306" fill="#1c1916"/>
+  <circle cx="132" cy="100" r="10" fill="#ca5e38"/>
+  <rect x="120" y="130" width="70" height="9" rx="4.5" fill="#ffffff" opacity="0.9"/>
+  <rect x="120" y="158" width="58" height="8" rx="4" fill="#ffffff" opacity="0.4"/>
+  <rect x="120" y="184" width="64" height="8" rx="4" fill="#ffffff" opacity="0.4"/>
+  <rect x="120" y="210" width="50" height="8" rx="4" fill="#ffffff" opacity="0.4"/>
+  <rect x="120" y="236" width="60" height="8" rx="4" fill="#ffffff" opacity="0.4"/>
+  <rect x="120" y="262" width="54" height="8" rx="4" fill="#ffffff" opacity="0.4"/>
+  <!-- header -->
+  <rect x="230" y="94" width="180" height="14" rx="7" fill="#2b2824"/>
+  <rect x="470" y="88" width="52" height="26" rx="13" fill="#ca5e38"/>
+  <!-- cards -->
+  <rect x="230" y="130" width="292" height="74" rx="12" fill="#f7f6f2" stroke="#e2dfd7"/>
+  <rect x="246" y="146" width="60" height="10" rx="5" fill="#cdc9bf"/>
+  <rect x="246" y="164" width="40" height="16" rx="8" fill="#2b2824"/>
+  <rect x="470" y="146" width="34" height="10" rx="5" fill="#6f946a"/>
+  <rect x="230" y="220" width="292" height="74" rx="12" fill="#f7f6f2" stroke="#e2dfd7"/>
+  <rect x="246" y="236" width="70" height="10" rx="5" fill="#cdc9bf"/>
+  <rect x="246" y="254" width="44" height="16" rx="8" fill="#2b2824"/>
+  <rect x="470" y="236" width="34" height="10" rx="5" fill="#ca5e38"/>
+  <!-- chart area -->
+  <rect x="230" y="310" width="292" height="80" rx="12" fill="#f7f6f2" stroke="#e2dfd7"/>
+  <path d="M246 368 L 300 350 350 362 400 330 450 342 506 312" fill="none" stroke="#ca5e38" stroke-width="3" stroke-linecap="round"/>
+  <path d="M246 368 L 300 350 350 362 400 330 450 342 506 312 L 506 390 L 246 390 z" fill="#ca5e38" opacity="0.12"/>
+  <line x1="246" y1="390" x2="506" y2="390" stroke="#e2dfd7"/>
+  <!-- label -->
+  <text x="100" y="452" font-family="Sora, sans-serif" font-size="20" font-weight="600" fill="#1c1916">Product design &amp; build</text>
+  <text x="100" y="476" font-family="Inter, sans-serif" font-size="13" fill="#6c6860">Relay Finance — B2B payments</text>
+</svg>

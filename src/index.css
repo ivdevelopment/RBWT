@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+ * Design tokens
+ * Rebrand the entire site by editing these values — no component changes needed.
+ * Each color is stored as an RGB triplet so Tailwind can apply alpha modifiers.
+ * ------------------------------------------------------------------------- */
+:root {
+  /* Surfaces */
+  --color-bg: 247 246 242; /* warm off-white page background */
+  --color-surface: 241 239 233; /* subtly deeper panels */
+  --color-card: 255 255 255; /* elevated card surface */
+
+  /* Text */
+  --color-ink: 28 25 22; /* near-black warm foreground */
+  --color-muted: 108 104 96; /* secondary text */
+
+  /* Lines & strokes */
+  --color-line: 226 223 215; /* hairline borders */
+
+  /* Brand */
+  --color-primary: 28 25 22; /* primary buttons (ink) */
+  --color-accent: 178 70 42; /* terracotta accent — darkened for AA contrast on light surfaces */
+  --color-accent-bright: 232 143 99; /* lighter terracotta for accents on dark surfaces */
+
+  /* Typography */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'Sora', 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    font-feature-settings: 'cv01', 'cv11';
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-accent/15 text-ink;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+
+  /* Respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer utilities {
+  /* Accessible focus ring for card-like interactive elements */
+  .ring-focus {
+    @apply outline-none;
+  }
+  .ring-focus:focus-visible {
+    box-shadow: 0 0 0 3px rgb(var(--color-accent) / 0.35);
+  }
+
+  /* Subtle background grid used in hero & CTA */
+  .bg-grid::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgb(var(--color-ink) / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(var(--color-ink) / 0.035) 1px, transparent 1px);
+    background-size: 56px 56px;
+    pointer-events: none;
+  }
+
+  /* Section rhythm */
+  .section-pad {
+    @apply py-20 sm:py-24 lg:py-32;
+  }
+}

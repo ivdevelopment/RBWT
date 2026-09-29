@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Daunton Hotels website homepage on a laptop">
+  <rect width="640" height="480" fill="#f7f6f2"/>
+  <!-- browser frame -->
+  <rect x="120" y="80" width="420" height="320" rx="14" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <rect x="120" y="80" width="420" height="44" rx="14" fill="#1c1916"/>
+  <rect x="120" y="96" width="420" height="28" fill="#1c1916"/>
+  <circle cx="148" cy="102" r="6" fill="#ca5e38"/>
+  <circle cx="166" cy="102" r="6" fill="#e8c66a"/>
+  <circle cx="184" cy="102" r="6" fill="#6f946a"/>
+  <!-- navbar skeleton -->
+  <rect x="148" y="148" width="70" height="10" rx="5" fill="#1c1916"/>
+  <rect x="380" y="148" width="80" height="10" rx="5" fill="#cdc9bf"/>
+  <rect x="472" y="140" width="40" height="26" rx="13" fill="#ca5e38"/>
+  <!-- headline -->
+  <rect x="148" y="210" width="230" height="18" rx="9" fill="#2b2824"/>
+  <rect x="148" y="240" width="180" height="18" rx="9" fill="#2b2824"/>
+  <rect x="148" y="282" width="280" height="10" rx="5" fill="#cdc9bf"/>
+  <rect x="148" y="302" width="250" height="10" rx="5" fill="#e3e0d9"/>
+  <!-- buttons -->
+  <rect x="148" y="336" width="110" height="34" rx="17" fill="#ca5e38"/>
+  <rect x="272" y="336" width="110" height="34" rx="17" fill="none" stroke="#cdc9bf"/>
+  <!-- image block -->
+  <rect x="440" y="200" width="72" height="130" rx="10" fill="#dcb8a0"/>
+  <rect x="440" y="250" width="72" height="24" fill="#f3d9c9" opacity="0.6"/>
+  <!-- laptop base -->
+  <path d="M130 400 l 30 -20 h 320 l 30 20 z" fill="#1c1916"/>
+</svg>

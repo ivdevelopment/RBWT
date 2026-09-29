@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f6f2"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#grid)" opacity="0.35"/>
+  <defs>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 L 0 0 0 56" fill="none" stroke="#1c1916" stroke-opacity="0.06"/>
+    </pattern>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ca5e38" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ca5e38" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="1000" cy="120" r="260" fill="url(#glow)"/>
+  <rect x="80" y="70" width="96" height="96" rx="24" fill="#1c1916"/>
+  <rect x="96" y="86" width="64" height="64" rx="14" fill="none" stroke="#ca5e38" stroke-width="3"/>
+  <path d="M108 138 V 112 l 16 16 V 96 l -16 15 M140 138 V 112 l -16 16 V 96 l 16 15" fill="none" stroke="#f7f6f2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8 4)"/>
+  <text x="204" y="128" font-family="Sora, sans-serif" font-size="44" font-weight="700" fill="#1c1916">Hartfelt Studio</text>
+  <text x="204" y="160" font-family="Inter, sans-serif" font-size="22" fill="#6c6860">Brand, Web &amp; Product Design</text>
+  <text x="80" y="340" font-family="Sora, sans-serif" font-size="64" font-weight="600" fill="#1c1916">Design that feels</text>
+  <text x="80" y="420" font-family="Sora, sans-serif" font-size="64" font-weight="600" fill="#ca5e38">inevitable.</text>
+  <text x="80" y="496" font-family="Inter, sans-serif" font-size="26" fill="#6c6860">Boutique studio · San Francisco · hartfelt.studio</text>
+</svg>

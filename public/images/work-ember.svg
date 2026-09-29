@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Ember & Oak Coffee brand identity and packaging">
+  <rect width="640" height="480" fill="#f7f6f2"/>
+  <!-- coffee bag -->
+  <rect x="180" y="120" width="180" height="260" rx="18" fill="#2b2824"/>
+  <rect x="198" y="138" width="144" height="64" rx="8" fill="#e9e5dc"/>
+  <text x="270" y="176" font-family="Sora, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1c1916">EMBER</text>
+  <path d="M270 150 v 46 M258 162 l 24 0" stroke="#ca5e38" stroke-width="3" fill="none"/>
+  <rect x="210" y="224" width="120" height="10" rx="5" fill="#ca5e38"/>
+  <rect x="210" y="244" width="100" height="8" rx="4" fill="#ffffff" opacity="0.35"/>
+  <rect x="210" y="260" width="110" height="8" rx="4" fill="#ffffff" opacity="0.25"/>
+  <rect x="220" y="300" width="100" height="14" rx="7" fill="#e9e5dc" opacity="0.9"/>
+  <text x="270" y="311" font-family="Inter, sans-serif" font-size="9" text-anchor="middle" fill="#1c1916">Small batch · Single origin</text>
+  <!-- kraft side bag -->
+  <rect x="380" y="170" width="90" height="170" rx="10" fill="#d9c6a5"/>
+  <rect x="392" y="182" width="66" height="30" rx="4" fill="#2b2824"/>
+  <text x="425" y="201" font-family="Sora, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#f7f6f2">OAK</text>
+  <!-- scattered beans -->
+  <ellipse cx="150" cy="180" rx="12" ry="8" fill="#6b4a2e" transform="rotate(-24 150 180)"/>
+  <ellipse cx="490" cy="210" rx="10" ry="7" fill="#8a5f3a" transform="rotate(18 490 210)"/>
+  <ellipse cx="508" cy="230" rx="10" ry="7" fill="#6b4a2e" transform="rotate(-10 508 230)"/>
+  <ellipse cx="160" cy="230" rx="9" ry="6" fill="#8a5f3a" transform="rotate(30 160 230)"/>
+  <!-- title -->
+  <text x="64" y="420" font-family="Sora, sans-serif" font-size="20" font-weight="600" fill="#1c1916">Identity &amp; packaging</text>
+  <text x="64" y="444" font-family="Inter, sans-serif" font-size="13" fill="#6c6860">Ember &amp; Oak Coffee Co.</text>
+</svg>

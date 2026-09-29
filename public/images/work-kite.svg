@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Kite Analytics marketing website">
+  <rect width="640" height="480" fill="#f7f6f2"/>
+  <!-- browser frame -->
+  <rect x="100" y="70" width="440" height="330" rx="14" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <rect x="100" y="70" width="440" height="40" rx="14" fill="#e9e5dc"/>
+  <rect x="100" y="88" width="440" height="22" fill="#e9e5dc"/>
+  <rect x="432" y="82" width="70" height="16" rx="8" fill="#ffffff" stroke="#e2dfd7"/>
+  <!-- hero block -->
+  <rect x="128" y="132" width="240" height="16" rx="8" fill="#2b2824"/>
+  <rect x="128" y="158" width="180" height="16" rx="8" fill="#2b2824"/>
+  <rect x="128" y="196" width="260" height="9" rx="4.5" fill="#cdc9bf"/>
+  <rect x="128" y="214" width="230" height="9" rx="4.5" fill="#e3e0d9"/>
+  <rect x="128" y="246" width="90" height="32" rx="16" fill="#ca5e38"/>
+  <!-- chart -->
+  <rect x="418" y="140" width="94" height="100" rx="12" fill="#f3d9c9"/>
+  <path d="M434 224 L 458 196 480 208 502 172" fill="none" stroke="#ca5e38" stroke-width="3" stroke-linecap="round"/>
+  <path d="M434 224 L 458 196 480 208 502 172 L 502 224 z" fill="#ca5e38" opacity="0.15"/>
+  <!-- three mini cards -->
+  <rect x="128" y="300" width="120" height="70" rx="10" fill="#f7f6f2" stroke="#e2dfd7"/>
+  <rect x="142" y="316" width="50" height="9" rx="4.5" fill="#cdc9bf"/>
+  <rect x="142" y="336" width="34" height="14" rx="7" fill="#2b2824"/>
+  <rect x="266" y="300" width="120" height="70" rx="10" fill="#f7f6f2" stroke="#e2dfd7"/>
+  <rect x="280" y="316" width="60" height="9" rx="4.5" fill="#cdc9bf"/>
+  <rect x="280" y="336" width="34" height="14" rx="7" fill="#2b2824"/>
+  <rect x="404" y="300" width="120" height="70" rx="10" fill="#f7f6f2" stroke="#e2dfd7"/>
+  <rect x="418" y="316" width="54" height="9" rx="4.5" fill="#cdc9bf"/>
+  <rect x="418" y="336" width="34" height="14" rx="7" fill="#2b2824"/>
+  <!-- label -->
+  <text x="100" y="450" font-family="Sora, sans-serif" font-size="20" font-weight="600" fill="#1c1916">Marketing site redesign</text>
+  <text x="100" y="474" font-family="Inter, sans-serif" font-size="13" fill="#6c6860">Kite Analytics</text>
+</svg>
